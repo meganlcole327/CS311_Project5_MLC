@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Christmas Cookies Mad Lib</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <script src="script.js"></script>
+
+        <div class="container my-5">
+            <!-- Title -->
+            <div class="card p-3 mb-4 shadow text-center title-card">
+                <h1>Christmas Cookies Mad Lib!</h1>
+            </div>
+
+            <!-- Main Content -->
+            <div class="row g-3">
+                <!-- Left Section: Image -->
+                <div class="col-md-4 text-center">
+                    <div class="image-container" style="background-color: #006400; padding: 10px; border-radius: 10px;">
+                        <img src="christmascookie.png" alt="Mad Lib Graphic" class="img-fluid shadow rounded">
+                    </div>
+                    <p class="mt-2"><a href="https://www.clipartmax.com/middle/m2H7i8b1m2G6Z5H7_snowflake-clipart-sugar-cookie-christmas-cookies-clip-art/" target="_blank" class="text-primary">Photo Source</a></p>
+                </div>
+                
+                <!-- Right Section: Mad Lib Form -->
+                <div class="col-md-8">
+                    <div class="card p-4 shadow">
+                        <h2>Complete your story:</h2>
+                        <form id="mad-lib-form" class="row g-3">
+                            <div class="col-12">
+                                <label for="word1" class="form-label">Enter a type of cookie:</label>
+                                <input type="text" class="form-control" id="word1" required>
+                             </div>
+                             <div class="col-12">
+                                <label for="word2" class="form-label">Enter the name of a family member:</label>
+                                <input type="text" class="form-control" id="word2" required>
+                             </div>
+                             <div class="col-12">
+                                <label for="word3" class="form-label">Enter an adjective:</label>
+                                <input type="text" class="form-control" id="word3" required>
+                             </div>
+                             <div class="col-12">
+                                <label for="word4" class="form-label">Enter the name of another family member:</label>
+                                <input type="text" class="form-control" id="word4" required>
+                             </div>
+                             <div class="col-12">
+                                <label for="word5" class="form-label">Enter an adjective:</label>
+                                <input type="text" class="form-control" id="word5" required>
+                             </div>
+                             <div class="col-12">
+                                <label for="word6" class="form-label">Enter a verb:</label>
+                                <input type="text" class="form-control" id="word6" required>
+                             </div>
+                             <div class="col-12">
+                                <label for="word7" class="form-label">Enter a noun:</label>
+                                <input type="text" class="form-control" id="word7" required>
+                             </div>
+                             <div class="col-12">
+                                <label for="word8" class="form-label">Enter a noun:</label>
+                                <input type="text" class="form-control" id="word8" required>
+                             </div>
+                             <div class="col-12">
+                                <label for="word9" class="form-label">Enter a number:</label>
+                                <input type="text" class="form-control" id="word9" required>
+                             </div>
+                             <div class="col-12">
+                                <label for="word10" class="form-label">Enter a spice or seasoning:</label>
+                                <input type="text" class="form-control" id="word10" required>
+                             </div>
+                             <div class="col-12">
+                                <label for="word11" class="form-label">Enter an adjective:</label>
+                                <input type="text" class="form-control" id="word11" required>
+                             </div>
+                             <!-- Buttons -->
+                        <div class="col-12 d-flex justify-content-between mt-3">
+                            <button type="reset" class="btn btn-secondary">Reset</button>
+                            <button type="button" id="generate-btn" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+                

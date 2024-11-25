@@ -1,0 +1,21 @@
+body {
+    background-color: #AA0000;
+    font-family: Arial, sans-serif;
+    font-family:"Papyrus"
+}
+
+.title-card {
+    background-color: #006400; 
+    color: #FBCEB1;
+    font-family:"Papyrus"
+}
+
+.card {
+    border-radius: 10px;
+}
+
+img {
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
