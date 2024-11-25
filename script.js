@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     storyDiv.style.display = "none"; // Hidden by default
     form.parentElement.appendChild(storyDiv);
 
-    // Function to generate the Mad Lib story
+    // Generate the Mad Lib story
     const generateMadLib = () => {
         // Get user input values
         const words = Array.from(form.elements).reduce((acc, input) => {
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
             return acc;
         }, []);
 
-        // Check if all fields are filled
+        // Check for null fields
         if (words.some(word => word === "")) {
             alert("Please fill out all fields before submitting!");
             return;
@@ -45,10 +45,10 @@ document.addEventListener("DOMContentLoaded", () => {
         form.style.display = "none";
     };
 
-    // Event listener for the Submit button
+    // Submit Button
     generateBtn.addEventListener("click", generateMadLib);
 
-    // Event listener for the Reset button
+    // Reset Button
     resetBtn.addEventListener("click", () => {
         
         // Reset form and hide the story
